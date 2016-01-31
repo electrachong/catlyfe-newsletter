@@ -1,28 +1,30 @@
-<!--- My basic draft of email structure. Uses three individual tables within one table. Email article/aside are just individual 'divisions' instead of tables as suggested by mailchimp. Header, main and footer are tables specified at 600 width instead of using one container wrapper set at 600 width. --->
-<!--- I will want to make sure to add the font-family to each td @ the end if it seems they are not being inherited by children tables :( -->
+<!-- My basic draft of email structure. Uses three individual tables within one table. Email article/aside are just individual 'divisions' instead of tables as suggested by mailchimp. Header, main and footer are tables specified at 600 width instead of using one container wrapper set at 600 width. -->
+<!-- I will want to make sure to add the font-family to each td @ the end if it seems they are not being inherited by children tables :( -->
 
-<!DOCTYPE html>
-<html xmls="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
 
     <head>
-        <meta http-equipv="Content-Type" content="text/html; charset=UTF-8" />
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        
+     
         <!-- Don't forget to add a title! -->
         <title>Insert Title</title>
     </head>
 
     <body style="margin: 0; padding: 0;">
     
-        <table border="1" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+        <table border="1" cellpadding="0" cellspacing="0" width="100%" id="bodyTable">
                 <tr>
-                    <td align="center" td style="font-family: Arial, sans-serif;">
+                    <td align="center" style="font-family: Arial, sans-serif;">
                         <table border="1" cellpadding="20" cellspacing="0" width="600" id="headerTable" style="border-collapse: collapse;" bgcolor="#c3d9a1">
                             <tr>
                                 <!-- Added a division for image so I can center the header text -->
-                                <td height=100; style="background-image:url(https://www.dropbox.com/s/9seqn81i0oconx6/catlyfe-logo.png?raw=1); background-repeat:no-repeat; background-position: 20px 20px; text-align:center; font-weight: bold; font-size: 42px; color:#33300;">
+                                <td height="100" style="background-image:url(https://www.dropbox.com/s/9seqn81i0oconx6/catlyfe-logo.png?raw=1); background-repeat:no-repeat; background-position: 20px 20px; text-align:center; font-weight: bold; font-size: 42px; color:#33300;">
                                                             
-                                Introducing<br>Catlyfe 
+                                Introducing<br />Catlyfe 
                                 </td>
                             </tr>
                         </table>
@@ -38,7 +40,7 @@
                                         </tr>
                                         <tr>
                                             <td>
-                                                Did you know cats want to express themselves too? Many cat minions have tried to address this by creating social profiles for their furry overlords on Facebook, Twitter, and other social media websites designed for humans. <p>
+                                                Did you know cats want to express themselves too? Many cat minions have tried to address this by creating social profiles for their furry overlords on Facebook, Twitter, and other social media websites designed for humans. <p />
                                                 <span style="font-style: italic; color: #c16c81;">Catlyfe</span> is a new microblogging service being developed just for cats to express themselves to their heart's content.
                                             </td>
                                         </tr>
@@ -49,14 +51,14 @@
                                         </tr>
                                         <tr>
                                             <td>
-                                                <table border="0" cellpadding="5" cellspacing="0" width="100%" id="articleTable" style="border-collapse: collapse;">
+                                                <table border="0" cellpadding="5" cellspacing="0" width="100%" style="border-collapse: collapse;">
                                                     <tr>
                                                         <td valign="top" style="font-size: 28px; font-weight: bold; color: #c16c81; height: 50px;">1.</td>
                                                         <td>When your cat approaches your keyboard, indicating they would like to fulfill their daily quota of social media activity, you will be able to click an easy button to start a new catpost.</td>
                                                     </tr>
                                                     <tr>
                                                         <td valign="top" style="font-size: 28px; font-weight: bold; color: #c16c81; height: 50px;">2.</td>
-                                                        <td>Place your cat on the keyboard and watch it craft a post in the mysterious cat web language.
+                                                        <td>Place your cat on the keyboard and watch it craft a post in the mysterious cat web language.</td>
                                                     </tr>
                                                     <tr>
                                                         <td valign="top" style="font-size: 28px; font-weight: bold; color: #c16c81; height: 50px;">3.</td>
@@ -87,12 +89,12 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    If you're active on social media, you're microblogging all the time, but you may not realize it. <p>
-                                                    These links help explain what microblogging is and the impact of social media so far.<p>
-                                                    <a href="http://webtrends.about.com/od/glossary/g/micro-blogging.htm" style="color:#566b3b;"> What is Microblogging? About.com</a><p>
-                                                    <a href="http://www.inc.com/peter-roesler/6-ways-social-media-changed-the-world.html" style="color:#566b3b;"> 6 Ways Social Media Changed the World</a><p>
-                                                    <a href="http://ebiquity.umbc.edu/_file_directory_/papers/369.pdf" style="color:#566b3b;"> Why We Twitter: Understanding Microblogging</a> [PDF]<p>
-                                                    <a href="http://www.theatlantic.com/technology/archive/2012/04/social-medias-small-positive-role-in-human-relationships/256346/" style="color:#566b3b;"> Social Media in Human Relationships</a><p>
+                                                    If you're active on social media, you're microblogging all the time, but you may not realize it. <p />
+                                                    These links help explain what microblogging is and the impact of social media so far.<p />
+                                                    <a href="http://webtrends.about.com/od/glossary/g/micro-blogging.htm" style="color:#566b3b;"> What is Microblogging? About.com</a><p />
+                                                    <a href="http://www.inc.com/peter-roesler/6-ways-social-media-changed-the-world.html" style="color:#566b3b;"> 6 Ways Social Media Changed the World</a><p />
+                                                    <a href="http://ebiquity.umbc.edu/_file_directory_/papers/369.pdf" style="color:#566b3b;"> Why We Twitter: Understanding Microblogging</a> [PDF]<p />
+                                                    <a href="http://www.theatlantic.com/technology/archive/2012/04/social-medias-small-positive-role-in-human-relationships/256346/" style="color:#566b3b;"> Social Media in Human Relationships</a><p />
                                                 </td>
                                             </tr>
                                     </table>
